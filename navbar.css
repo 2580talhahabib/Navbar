@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: red
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    ;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+display: block;
+}
+nav ul li a:hover{
+    background-color: rgb(219, 78, 78) ;
+}
+
+.bi-list{
+    display: none;
+    font-size: 50px;
+    color: white;
+   }
+.show-menu{
+    display: block;
+}
+
+
+
+
+    
+@media screen and (min-width: 768px) and (max-width:992px){
+    nav ul{  
+       justify-content: center;
+     
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 767px){
+    nav ul{
+        
+       display: none;
+       flex-direction: column;
+    }
+    nav ul li{
+        
+       text-align: center;
+     }
+       .bi-list{
+        display: block;
+       }
+    
+
+    }
+  
